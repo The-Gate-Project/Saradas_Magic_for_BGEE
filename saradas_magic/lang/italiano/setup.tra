@@ -1,0 +1,264 @@
+@1 = ~Pergamena~
+@2 = ~Combustione spettacolare~
+@3 = ~Pergamena misteriosa~
+@4 = ~Combustione spettacolare (Invocazione)
+
+Livello: 7
+Raggio: 30m
+Bersaglio: singolo
+Tempo di cast: 7
+Salvezza: incantesimi dimezza danno
+
+Lo stregone crea nelle proprie mani una piccola sfera rossa luminescente, pronta per essere scagliata verso il bersaglio. Quando essa tocca la sventurata creatura, innesca un'immane colonna infuocata che l'avvolge, provocandole ustioni spaventose. Inoltre, l'arma del bersaglio diventa incandescente e se l'avversario non supera un tiro salvezza su incantesimi, dovra'  lasciarla cadere a terra per non essere ustionato. Il danno da fuoco iniziale dell'incantesimo e' di 5d10, piu' altri 3d10 se non si supera un tiro salvezza. Il bersaglio inoltre continuera'  a bruciare per i successivi tre round, subendo 5 danni da fuoco per ciascuno di essi.~
+
+@5 = ~Risucchiare incantesimo~
+@6 = ~Risucchiare incantesimo (Incantamento)
+
+Livello: 7
+Bersaglio: singolo
+Raggio: 7m
+Durata: istantanea
+Tempo di Lancio: 7
+Tiro Salvezza: incantesimi -5 nega
+
+Questo incantesimo e' molto famoso tra gli stregoni. Visto il suo grande potere, in passato e' stato usato moltissime volte in regolamenti di conti tra maghi, con l'intento di ridicolizzare l'avversario. E' decisamente uno tra gli incantesimi piu' devastanti da usare contro un mago. Saradas era uno tra i maestri piu' potenti e noti di Faerun. Spesso si divertiva ad utilizzare questo incantesimo, da lui inventato, sugli ignari studenti, per rendere piu' difficili gli esami. EFFETTO: Il lanciatore fa dimenticare due incantesimi all'avversario che non riesce in un tiro salvezza su incantesimi (-5), ripristinandone uno dei propri. Ha effetto su magie dal livello 1 al livello 9, ma cerchera'  sempre di far dimenticare quelle di piu' alto livello a disposizione del bersaglio. NOTA: Questo incantesimo colpisce solamente incantatori e maghi (puri, biclasse e multiclasse). Se il bersaglio colpito fosse di una classe diversa da quelle indicate, non accadrebbe nulla e l'incantesimo andrebbe sprecato.~
+
+@7=~Incantesimo rimemorizzato~
+@8=~Vento sferzante~
+@9=~Vento sferzante (Evocazione)
+
+Livello: 6
+Tempo di lancio: 6
+Raggio: 15m
+Area d'effetto: frontale al mago
+Tiro salvezza: soffio (-2) riduce gli effetti
+
+Con un solo gesto della mano il mago evoca una potentissima folata di vento capace di sbaragliare un intero gruppo di nemici. Essi vengono scagliati fino a 20 metri di distanza dall'incantatore e se non superano un tiro salvezza subiranno 1d10 di danni contundenti, perderanno la presa sulle loro armi, inoltre rimarranno temporaneamente storditi a causa del forte impatto col suolo o con altri ostacoli vicini.~
+
+@10=~Campo gravitazionale~
+@11=~Campo gravitazionale (Alterazione)
+
+Livello: 5
+Tempo di cast: 5
+Range: 20 metri
+Scuola: Alterazione
+Bersaglio: Area
+Durata: gli effetti durano per 15 secondi
+Tiro salvezza: Su Incantesimi (+2) nega
+
+Questo incantesimo aumenta la forza di gravita'  in una piccola area decisa dall'incantatore. Tutte le creature nell'area d'effetto sono sopraffatte da un repentino aumento della gravita'  e, se non superano un tiro salvezza, lasciano cadere le proprie armi a terra, a causa del loro peso divenuto insostenibile. In aggiunta, vengono anche rallentate e la loro destrezza si dimezza. Gli effetti possono essere dissolti.~
+
+@12=~Esplosione spirituale~
+@13=~Esplosione spirituale (Invocazione)
+
+Livello: Epico
+Raggio d'azione: 75m
+Bersaglio: 1 creatura
+Durata: Istantanea
+Tiro Salvezza: su incantesimi (-7)
+
+Questo e' l'incantesimo offensivo definitivo, plasmato per la prima volta da Saradas, lo stregone blu. L'incantatore concentra nelle proprie mani un'immane energia, nella quale infonde anche parte del proprio spirito.
+Il danno base e' di 1d10 per livello dello stregone (fino a un massimo di 10) e non puo' essere evitato con un tiro salvezza, sebbene la resistenza magica aiuti ad evitarne gli effetti. L'altra componente del danno e' costituita dallo spirito dello stregone, che infligge 20d10.
+Se il bersaglio riesce in un tiro salvezza su incantesimi con penalita' -7, evitera'  il danno spirituale. La resistenza alla magia non puo' bloccare il danno spirituale.
+Lo stregone, a causa dello sforzo, perdera'  3d10 punti ferita e sara' affaticato per l'ora successiva al lancio dell'incantesimo.
+Da notare che il proiettile e' in grado di oltrepassare l'effetto di barriere protettive.~
+
+@14=~Teletrasporto senza errore~
+@15=~Teletrasporto senza errore (Illusione)
+
+Livello: 3
+Raggio: 30m
+Durata: istantanea
+Tempo di lancio: 3
+Area d'effetto: incantatore
+
+Questo prodigioso incantesimo permette all'incantatore di teletrasportarsi senza errore entro 30 metri nel proprio raggio visivo, inoltre, non appena egli arrivera'  nella destinazione prescelta, sara'  celato agli occhi dell'avversario come se avesse lanciato un incantesimo di invisibilita', ottenendo un vantaggio tattico non indifferente. Il mago rimarra' in questo stato per 2 round, a meno che non effettui un'azione offensiva durante questo periodo.~
+
+@16=~Supremazia di Tenser~
+@17=~Supremazia di Tenser (Alterazione)
+
+Livello: 9
+Durata: 1 minuto
+Area d'effetto: l'incantatore
+Tempo di cast: 9
+
+Questo incantesimo e' il terrore di ogni sprovveduto dei Reami. Molti guerrieri spacconi deridono i maghi per la loro scarsa prestanza fisica, ma il mago sotto l'effetto di questo incantesimo riuscira'  senza dubbio a cancellare il sorriso dai loro volti. Il suo corpo si trasforma, divenendo imponente. Il mago abbandona la propria vecchia natura, credendo di essere un guerriero da sempre, divenendo molto abile nel combattimento. Come se cio'  non bastasse lo stregone evoca una lama incantata che sa maneggiare alla perfezione. Il mago puo'  mantenere questo stato solo per un minuto, durante il quale non potra'  usare magie o abilita'. Al termine, si sentira'  affaticato, inoltre a causa del trauma subito, avra'  forti difficolta'  a lanciare incantesimi. Gli effetti possono essere dissolti.
+
+BONUS:
+CA +5
+TACH0 impostato a -3
+Forza sale a 25
+PF e velocita' di movimento raddoppiati.~
+
+@18=~Spada incantata di Tenser~
+@19=~Orrida trasformazione~
+@20=~Orrida Trasformazione (Necromanzia)
+
+Livello: 7
+Raggio d'azione: 5m
+Bersaglio: 1 creatura
+Durata: Permanente
+Tiro-salvezza: nega gli effetti
+
+Il bersaglio raggiunto da questa terribile maledizione deve superare un tiro salvezza su Metamorfosi (malus -2) o subire una trasformazione nauseabonda. Le sue membra iniziano a decomporsi rapidamente, perdendo gran parte del loro vigore ed elasticita' . Il loro aspetto diverra'  talmente repellente da provocare nausea e disgusto in chiunque si trovi a meno di qualche metro di distanza. I tessuti avvizziscono, causando difficolta'  motorie gravissime che dimezzeranno la velocita'  di movimento dello sfortunato soggetto.
+Anche la lucidita'  viene meno, rendendo il bersaglio completamente incapace di pensare e di intraprendere azioni, anche le piu' basilari.
+L'intelligenza, la forza e il carisma subiscono dei malus pesantissimi.
+L'unica azione concessa al bersaglio e' l'utilizzo di pozioni e oggetti equipaggiati.
+Gli effetti sono permanenti a meno che non venga lanciato un incantesimo di rimuovi maledizione sul bersaglio del sortilegio.
+NOTA:
+ha effetto solamente su creature umanoidi, pertanto animali, non-morti o umanoidi giganti non vengono colpiti da questo incantesimo.~
+
+@21=~Incantesimi risucchiati~
+@22=~Il bersaglio non e' soggetto agli effetti dell'incantesimo~
+@23=~Saradas~
+@24=~Difesa impenetrabile~
+@25=~Difesa impenetrabile (Abiurazione)
+
+Livello: Epico
+Raggio d'azione: Alleati entro 10m
+Durata: 1 turno
+
+Il mago che si e' specializzato nella scuola di Abiurazione e ha raggiunto la padronanza totale in tale campo, ha accesso a questa barriera di natura magica di incomparabile potere.
+Tutte le difese elementali del gruppo vengono innalzate fino a raggiungere il 75% di protezione, inoltre la resistenza ai danni contundenti, da taglio, da penetrazione e da armi da lancio, vengono alzate al 33%.
+I tiri salvezza del gruppo subiscono un bonus universale di +2 e la classe armatura +3, inoltre la barriera impedisce agli incantesimi di livello pari o inferiore a 6 di penetrarla.
+Da notare che chi e' protetto da Difesa Impenetrabile e' anche immune agli effetti di risucchio di livello, incantesimi di morte istantanea, disintegrazione e pietrificazione.
+L'incantatore puo' usare questo incantesimo solo una volta al giorno e la sua grande efficacia ne rende la durata relativamente breve, inoltre per tutta la durata della barriera, l'incantatore non potra'  lanciare altri incantesimi poiche' dovra'  mantenere la concentrazione.
+Non puo' essere dissolta con Dissolvi Magie.~
+
+@26=~Fragilita'  dell'io~
+@27=~Fragilita'  dell'io (Alterazione)
+
+Livello: Epico
+Raggio d'azione: 20m
+Bersaglio: nemici multipli
+Durata: 1 turno e mezzo
+Tiro salvezza: Nega
+
+Il mago che si e' specializzato nella scuola di Alterazione e ha raggiunto la padronanza totale in tale campo, ha accesso a questo incantesimo che permette di destabilizzare non solo la materia del bersaglio, ma anche la sua anima.
+Quando l'incantesimo ha effetto il bersaglio sentira'  su di se' il peso dell'universo stesso, portandolo a un'incredibile debolezza e sgomento.
+Tutte le resistenze elementali, quella da danno magico e quelle fisiche saranno portate a -25, esponendo quindi il bersaglio ad un danno maggiorato del 25% da queste fonti.
+La resistenza magica sara'  abbassata di 75 punti e gli effetti dell'incantesimo Lentezza si abbatteranno sulla creatura colpita dall'incantesimo.
+Un tiro salvezza su incantesimi (con penalita'  -2) effettuato con successo nega completamente gli effetti.~
+
+@28=~Evoca Diavolo di Baator~
+@29=~Evoca Diavolo di Baator (Evocazione)
+
+Livello: Epico
+Raggio d'azione: 15m
+Durata: 1 turno e mezzo
+
+Il mago che si e' specializzato nella scuola di Evocazione e ha raggiunto la padronanza totale in tale campo, ha accesso a questo spaventoso rituale d'evocazione. Egli creera'  uno strappo planare tra il primo piano materiale e i nove inferi di Baator, richiamandone un principe demoniaco di incommensurabile potere.
+Egli non obbedira'  ciecamente all'evocatore, ma lo proteggera'  ogni qualvolta un nemico dovesse avvicinarsi troppo; finito il pericolo, egli vaghera'  nei dintorni del gruppo in attesa di un nemico da divorare.
+Il suo attacco e' micidiale, arreca 2d10+5 di danno da taglio ed e' considerato come un'arma +5, inoltre arreca 1d6 aggiuntivo da danno da fuoco e i suoi artigli hanno una probabilita'  del 10% di dilaniare il bersaglio, uccidendolo istaneamente, se non supera un tiro salvezza su morte.
+Il demone, in cambio dei suoi servigi, richiede meta'  dei punti ferita attuali dell'incantore.~
+
+@30=~Principe demoniaco~
+@31=~Prevedere il futuro~
+@32=~Prevedere il futuro (Divinazione)
+
+Livello: Epico
+Raggio: incantatore
+Durata: 1 ora
+
+Il mago che si e' specializzato nella scuola di Divinazione e ha raggiunto la padronanza totale in tale campo, ha accesso a questo prodigioso incantesimo. Egli si concentra e al termine del rituale sara'  in grado di vedere quasi senza errore tutti gli eventi che accadranno nell'ora seguente, concedendogli un vantaggio tattico spaventoso.
+La classe armatura del mago sara'  incrementata di 5 punti universali e i suoi tiri salvezza di 4 punti, inoltre sara'  immune ai primi 10 attacchi fisici che subira' .
+Il potere di questo incantesimo non si ferma qui, infatti le straordinarie doti divinatorie dell'incantatore gli consentono di vedere interamente l'area in cui si trova al momento del lancio dell'incantesimo, nonche' di svelare la presenza di utili oggetti magici celati alla vista delle persone normali e di vedere la realta'  circostante con chiarezza assoluta (Vera Vista).
+La protezione dura un'ora e non puo' essere dissolta con un incantesimo di dissolvi magie.~
+
+@33=~Folle abnegazione~
+@34=~Folle abnegazione (Incantamento)
+
+Livello: Epico
+Raggio: 30m
+Durata: 1 turno e mezzo
+Bersaglio: nemici multipli
+Tiro salvezza: nega
+
+
+Il mago che si e' specializzato nella scuola di Incantamento e ha raggiunto la padronanza totale in tale campo, ha accesso a questo spaventoso sortilegio che sconvolge completamente la mente e il corpo dei bersagli.
+Essi subiscono gli stessi effetti dell'incantesimo Charme estremo, ma il loro corpo viene colpito da una potente scarica di adrenalina che inneschera'  comportamenti quasi animaleschi sui bersagli.
+Essi cercheranno di proteggere l'incantatore a costo della vita, non dubiteranno di nessun suo comando, inoltre saranno piu' veloci, piu' forti e non potranno essere distolti dal loro compito.
+Al termine dell'effetto dell'incantesimo, il corpo dei nemici subira'  un forte shock dovuto allo sforzo, portandoli ad arresto cardiaco e quindi a morte immediata.
+Un tiro salvezza su incantesimi con penalita'  -5 nega gli effetti.
+
+STATISTICHE:
+Forza +3
+Thac0 +5
+Attacchi per round: +1
+Doppia velocita' di movimento
+Immunita' a charme e confusione~
+
+@35=~Schiera d'ombre~
+@36=~Schiera d'ombre (Illusione)
+
+Livello: Epico
+Raggio: party
+Durata: 1 turno
+
+Il mago che si e' specializzato nella scuola di Illusione e ha raggiunto la padronanza totale in tale campo, ha accesso a questa illusione magistrale. Egli e' in grado di creare dei cloni perfetti in tutto e per tutto agli appartenenti al suo gruppo, equipaggiamento incluso.
+Nello stesso istante in cui questi doppioni vengono creati, i membri del party saranno occultati grazie ad un'invisibilita'  potenziata e teletrasportati a distanza di sicurezza. In questo modo i nemici non saranno assolutamente in grado di capire cio' che e' successo e attaccheranno i cloni, invece di ferire il gruppo.
+Da notare che queste ombre non sono in grado di ferire gli avversari, ma sono totalmente sotto l'effetto dell'incantatore, che nel frattempo potra'  eseguire qualunque altro incantesimo egli voglia.
+Da notare che tutti i membri del gruppo non potranno usare altre illusioni come Simulacro, Ingannare e Proietta immagine.~
+
+@37=~Doni della morte~
+@38=~Doni della morte (Necromanzia)
+
+Livello: Epico
+Raggio: incantatore
+Durata: Circa trenta minuti
+
+Il mago che si e' specializzato nella scuola di Necromanzia e ha raggiunto la padronanza totale in tale campo, ha accesso a questo macabro rituale di trasformazione. Egli e' ora in grado di trasformarsi in un Lich.
+Cio' che rende questo incantesimo particolarmente brillante e' la natura della sua durata. Esso infatti non rende il mago permanentemente non-morto, ma gli concede gli stessi benefici per tutta la durata dell'incantesimo.
+Oltre ad essere immune a effetti come paura, charme, veleno, morte istantanea, accecamento, stupidita', malattia, confusione, risucchio di livello, non potra' essere danneggiato da armi che non siano almeno incantate +3.
+Sara'  inoltre immune ai danni da gelo, e subira'  il 75% di danni in meno da fonti elettriche, ma sara'  duramente colpito dall'elemento fuoco e il suo nuovo corpo non gli consente di muoversi agilmente.
+Il suo spaventoso aspetto fisico incutera'  timore in tutti i nemici circostanti.
+Durante la trasformazione, il mago potra'  usare il suo tocco Lich come arma, infliggendo 1d10+5 da danno penetrante, 2d6 aggiuntivi da freddo, inoltre se il bersaglio colpito non supera un tiro salvezza su morte, verra'  paralizzato per 10 secondi.
+Il tocco Lich e' da considerarsi come un'arma incantata +5 e ogni contatto col nemico consente al necromante di risucchiare 1d6 punti vitali dalla vittima e trasferirli a se' stesso.
+
+Non puo' essere dissolto, inoltre il necromante non potra'  utilizzare altri incantesimi di trasformazione~
+
+@39=~Mano del Lich~
+@40=~Resistenza magica, elementale e fisica abbassata~
+@41=~Oggetto creato nell'inventario~
+@42=~Conoscenza dell'erudito~
+@43=~Conoscenza dell'erudito (Generalista)
+
+Livello: Epico
+Raggio: Incantatore
+Durata: 30 minuti
+
+Il mago che ha deciso di non specializzarsi in nessuna corrente magica specifica ha compreso a fondo le energie che pervadono Faerun ed e' in grado di incanalarle e plasmarle con maggiore efficacia. Per la durata dell' incantesimo, il mago e' in grado di abbassare il tempo di cast dei propri incantesimi di 1 e di raddoppiarne la durata, inoltre espande la propria aura magica. I nemici che ne vengono a contatto subiranno una penalita' inevitabile di 3 punti a tutti i loro tiri salvezza. Le resistenze ai danni elementali e magici saranno dimezzate e quella magica verra' abbassata di 25 punti. Gli effetti dell'aura durano 30 secondi e non sono cumulabili. Eventuali oggetti magici equipaggiati dai nemici possono comunque aumentare suddette resistenze, cosi' come incantesimi protettivi.~
+
+@44=~Esplosione di magia selvaggia~
+@45=~Esplosione di magia selvaggia (Magia selvaggia)
+
+Livello: Epico
+Raggio: 20m
+Bersaglio: singolo
+Durata: 1 turno
+Tiro salvezza: nega
+
+Il mago che si e' specializzato nella scuola di Magia selvaggia e ha raggiunto la padronanza totale in tale campo, ha accesso a questo incantesimo che ha il potere di concentrare per una breve durata una forte energia selvaggia sul nemico.
+Se l'incantatore nemico non supera un tiro salvezza con penalita'  -3 su soffio, sara'  avvolto in questa energia per 1 turno. Ogni incantesimo che egli cerchera'  di plasmare dara'  invece come risultato una esplosione di magia selvaggia incontrollabile, con effetti principalmente nefasti per se' stesso e il suo eventuale gruppo, poiche' il mago selvaggio e' in grado di modificare negativamente i suoi tiri sulla tabella degli effetti di magia selvaggia.
+Questa energia che avvolge il nemico non puo' essere dissolta. E' inoltre da tenere in considerazione il fatto che neppur un gran maestro potra'  mai piegare completamente questo tipo di energia al proprio volere, pertanto effetti favorevoli per il nemico non sono da escludere completamente.~
+
+@46=~Avvolto da energia magica selvaggia~
+@47=~Aura magica~
+@48=~Sangue di Drago~
+@49=~Attacco del Drago rosso~
+@50=~Sangue di Drago (Discepolo del Drago)
+
+Livello: Epico
+Bersaglio: incantatore
+Durata: 1 minuto
+
+Il descepolo del drago ha raggiunto piena consapevolezza di se', sente il sangue di drago scorrere nelle proprie vene e ne vuole controllare il potere che ne deriva.
+Grazie a questa abilita' e' finalmente in grado di farlo. Egli potra' infatti assumere la forma di un drago rosso per tutta la durata dell'incantesimo, ottenendo i seguenti bonus:
+Immunita' al fuoco; ad armi +4 e inferiori; charme, paura, stupidita', malattie e confusione.
+Punti ferita raddoppiati e forza portata a 23;
+Danni da missile ridotti del 75%;
+Danni contundenti ridotti del 50%;
+Danni da taglio ridotti del 75%;
+Incutera' timore ai nemici circostanti.
+Il suo artiglio e' un'arma +5, provoca 2d10+5 da taglio e scaraventa lontano i nemici.
+Non puo' usare altri incantesimi di metamorfosi.~
