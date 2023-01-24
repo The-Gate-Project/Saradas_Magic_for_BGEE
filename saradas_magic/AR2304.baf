@@ -1,0 +1,7 @@
+IF
+  global("!Saraspawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+  CreateCreature("!Saradas",[347.289],0)
+  setglobal("!Saraspawn","GLOBAL",1)
+END

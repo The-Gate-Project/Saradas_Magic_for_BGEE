@@ -1,0 +1,70 @@
+@100=~Greetings, adventurers. My name is Saradas, traveler and teacher of the arcane arts. For all my life I've wandered throughout Faerun in search of knowledge and lost artifacts. As you can see, my age forbids me to continue this pleasant activity. Now I spend my time giving advices and assistance to young adventurers in need, and sell some spells that I created. Feel free to take a look at my goods, if you're interested. ~
+
+@101=~Let's see what you have to offer, mage.~
+
+@102=~Actually we are in a hurry now, see you next time.~
+
+@103=~I really don't care who you are or what you sell, old man. Besides, I have many doubts about your mysterious "powers".~
+
+@104=~You know, I do not like to give demonstrations of my powers, especially in public... but if that's really what you ask for, I shall please your request. You may even learn something new.~
+
+@105=~Alright oldie, come at me! I'll wipe the smile off your face!.~
+
+@106=~Mmm...maybe next time, mh? I...I'm veeeery busy right now, so...I'll teach you a lesson next time. yeah...~
+
+@107=~Wise choice, <GIRLBOY>. Go now, and try to learn some good manners while you are at it.~
+
+@108=~Oh, you're back. Are you searching for a particular scroll, or perhaps an artifact? Maybe you are looking for a friend...You cannot get enough of them in these harsh times.~
+
+@109=~Well met, Saradas. Show us what you have to sell today.~
+
+@110=~We were just passing by the Friendly Arm Inn, we shall go now.~
+
+@111=~Neither the first, nor the second. Find yourself another one to bother, sticky old man. Umph!~
+
+
+@115=~Welcome back! <CHARNAME>, I have heard about your heroic accomplishment at the Cloakwood Forest's mines. I'm very impressed, well done!~
+
+@116=~Oh, looks like news walk faster than I do...That wasn't easy at all, and we are very glad to be still alive. We just want to leave that experience behind as soon as possible.~
+
+@117=~That's none of your business, old wizard. Let me be, once and for all!~
+
+@118=~Come on, you know there is no need to be so humble with me. The Realms are indeed in great need of persons like you.~
+
+@119=~Thank you, Saradas, but there's still much to be done...Farewell.~
+
+@120=~Alright alright, I'd better go, but there's no need to be such a rude person. Don't forget that is important to have some trusted friends around, in life. Farewell, <CHARNAME>.~
+
+@121=~You're very kind, but I'm so tired, it looks like perils will never end. If only Gorion was still here to teach me...~
+
+@122=~Well, I might actually have something to teach you...I can see that you study the school of Conjuration. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@123=~I would have never imagined that such a complicated spell would exist and I would have never learned it without your help. My quest just seems much less impossible, now. Thank you, Saradas!~
+
+@124=~Well, I might actually have something to teach you...I can see that you study the Wild Magic. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@125=~Well, I might actually have something to teach you...I can see that you study the school of Abjuration. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@126=~Well, I might actually have something to teach you...I can see that you study the school of Divination. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@127=~Well, I might actually have something to teach you...I can see that you study the school of Enchantment. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@128=~Well, I might actually have something to teach you...I can see that you study the school of Illusion. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@129=~Well, I might actually have something to teach you...I can see that you study the school of Invocation. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@130=~Well, I might actually have something to teach you...I can see that you study the school of Necromancy. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@131=~Well, I might actually have something to teach you...I can see that you study the school of Alteration. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@132=~Well, I might actually have something to teach you...I can see that you are a Generalist, you study magic in each one of its forms. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@133=~Well, I might actually have something to teach you...I can see that you are a Dragon Disciple. This spell will come in handy for the hard times to come, but don't use it without due attention, for its powers are truly amazing.~
+
+@134=~Some of us are badly injured, can you help us?~
+
+@135=~I'm not exactly a specialist in this field, but I know some basic heal spells. Well, let me take a look...~
+
+@136=~Your evil reputation is well renowned, I will not help criminals. Leave now.~
+
+@137=~I'm afraid I have already used all my healing spells, come back later and I shall help you.~
