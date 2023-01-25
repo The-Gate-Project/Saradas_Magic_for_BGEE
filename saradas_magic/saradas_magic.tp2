@@ -5,7 +5,7 @@ README ~saradas_magic/readme/Readme.%LANGUAGE%.txt~ ~saradas_magic/readme/Readme
 ALWAYS
     //Copies tra files into the autotra-folder (to leave the originals untouched)
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
-      COPY ~saradas_magic/lang/french~  ~saradas_magic/lang/autotra/%LANGUAGE%~
+      COPY ~saradas_magic/lang/english~  ~saradas_magic/lang/autotra/%LANGUAGE%~
       COPY ~saradas_magic/lang/%LANGUAGE%~  ~saradas_magic/lang/autotra/%LANGUAGE%~
     END
 
@@ -210,7 +210,7 @@ COMPILE ~saradas_magic/baf/!sarad1.baf~
 COMPILE ~saradas_magic/baf/!sarad2.baf~
 COMPILE ~saradas_magic/baf/!sarad3.baf~
 COMPILE ~saradas_magic/baf/!SPCCON.baf~
-COMPILE ~saradas_magic/baf/AR2304.baf~
+EXTEND_BOTTOM ~ar2304.bcs~ ~saradas_magic/baf/AR2304.baf~
 COMPILE ~saradas_magic/dlg/!saradas.d~ USING ~saradas_magic/lang/%s/!saradas.tra~
 
 COMPILE ~saradas_magic/dlg/!sarago.d~ USING ~saradas_magic/lang/%s/!sarago.tra~
