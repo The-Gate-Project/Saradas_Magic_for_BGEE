@@ -110,7 +110,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!spc1nv"))
             SetGlobal("Sarad1sGaveSpellClassINV","GLOBAL",2)
-End
+END
 
 
 
@@ -122,7 +122,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!spc1bj"))
             SetGlobal("Sarad1sGaveSpellClassABJ","GLOBAL",2)
-End
+END
 
 
 
@@ -134,7 +134,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!spcd1v"))
             SetGlobal("Sarad1sGaveSpellClassDIV","GLOBAL",2)
-End
+END
 
 IF
     Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
@@ -144,7 +144,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!Spc1nc"))
             SetGlobal("Sarad1sGaveSpellClassENC","GLOBAL",2)
-End
+END
 
 IF
     Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
@@ -154,7 +154,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!Spci1l"))
             SetGlobal("Sarad1sGaveSpellClassILL","GLOBAL",2)
-End
+END
 
 IF
     Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
@@ -164,7 +164,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!spcn1c"))
             SetGlobal("Sarad1sGaveSpellClassNEC","GLOBAL",2)
-End
+END
 
 IF
     Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
@@ -174,7 +174,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!SPC1ON"))
             SetGlobal("Sarad1sGaveSpellClassCON","GLOBAL",2)
-End
+END
 
 IF
     Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
@@ -184,7 +184,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!Spcw1l"))
             SetGlobal("Sarad1sGaveSpellClassWIL","GLOBAL",2)
-End
+END
 
 IF
     Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
@@ -194,7 +194,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!Spc1lt"))
             SetGlobal("Sarad1sGaveSpellClassALT","GLOBAL",2)
-End
+END
 
 IF
     Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
@@ -204,7 +204,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!spcg1n"))
             SetGlobal("Sarad1sGaveSpellClassGEN","GLOBAL",2)
-End
+END
 
 IF
     Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
@@ -214,7 +214,7 @@ THEN
             wait(1)
             ActionOverride(Protagonist,AddSpecialAbility("!spcdr1"))
             SetGlobal("Sarad1sGaveSpellClassDRA","GLOBAL",2)
-End
+END
 
 
 IF
@@ -223,4 +223,11 @@ THEN
   RESPONSE #100
   setglobal("SARAD1E","GLOBAL",1)
   continue()
+END
+
+IF
+  GlobalGT("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    DestroySelf()
 END

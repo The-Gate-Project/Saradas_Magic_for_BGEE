@@ -102,6 +102,15 @@ All the mod's related files will be erased from the override folder without corr
 
 CHANGELOG: V_1.2
 
+* Add...
+`IF
+  GlobalGT("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END`
+...for EET continuity
+
 * Add Readme.md
 
 * Add g3_bgee_cpmvars.tpa and %area_prefix% for EET compatibility
