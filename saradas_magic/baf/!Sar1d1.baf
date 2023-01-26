@@ -1,0 +1,226 @@
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+    Continue()
+END
+
+IF
+  StealFailed([PC])
+THEN
+  RESPONSE #100
+    setglobal("!SaraS1eal","GLOBAL",1)
+    wait(1)
+    StartDialogue("!SARA1GR",[PC])
+    continue()
+END
+
+
+IF
+  global("!SaraS1eal","GLOBAL",2)
+THEN
+  RESPONSE #100
+    setglobal("!SaraS1eal","GLOBAL",3)
+    reallyforcespell(player1,CHICKEN_CHANGE)
+    reallyforcespell(player2,CHICKEN_CHANGE)
+    reallyforcespell(player3,CHICKEN_CHANGE)
+    reallyforcespell(player4,CHICKEN_CHANGE)
+    reallyforcespell(player5,CHICKEN_CHANGE)
+    reallyforcespell(player6,CHICKEN_CHANGE)
+    SmallWait(1)
+    ClearAllActions()
+    NoAction()
+    wait(2)
+    StartDialogue("!SAR1GO",[PC])
+END
+
+
+IF
+  PickPocketFailed([PC])
+THEN
+  RESPONSE #100
+    Enemy()
+    Continue()
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("!sarad1sAggro","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("!sarad1sAggro","LOCALS",1)
+    SetGlobalTimer("!S1imer1","LOCALS",100)
+    Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("!sarad1sAggro","LOCALS",1)
+	!Global("!sarad1sAngry","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("!S1imer2","LOCALS",1)
+		SetGlobal("!sarad1sAngry","LOCALS",1)
+		StartDialogue("!SARA1GR",[PC])
+END
+
+
+IF
+  GlobalTimerExpired("!S1imer1","LOCALS")
+  Global("!sarad1sAggro","LOCALS",1)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    NoAction()
+    ForceSpell(Myself,POOF_GONE)
+    SmallWait(2)
+    StartDialogue("!SAR1GO",[PC])
+    SetGlobal("!SAR1GO","LOCALS",1)
+    SmallWait(1)
+END
+
+IF
+  !See(Nearestenemyof(Myself))
+  Global("!sarad1sAggro","LOCALS",1)
+THEN
+  RESPONSE #100
+    MoveToObject(protagonist)
+    Continue()
+END
+
+IF
+OR(2)
+statecheck(myself,state_stunned)
+statecheck(myself,state_helpless)
+THEN
+RESPONSE #100
+applyspell(myself,WIZARD_DISPEL_MAGIC)
+continue()
+END
+
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassINV","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!spc1nv"))
+            SetGlobal("Sarad1sGaveSpellClassINV","GLOBAL",2)
+End
+
+
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassABJ","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!spc1bj"))
+            SetGlobal("Sarad1sGaveSpellClassABJ","GLOBAL",2)
+End
+
+
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassDIV","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!spcd1v"))
+            SetGlobal("Sarad1sGaveSpellClassDIV","GLOBAL",2)
+End
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassENC","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!Spc1nc"))
+            SetGlobal("Sarad1sGaveSpellClassENC","GLOBAL",2)
+End
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassILL","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!Spci1l"))
+            SetGlobal("Sarad1sGaveSpellClassILL","GLOBAL",2)
+End
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassNEC","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!spcn1c"))
+            SetGlobal("Sarad1sGaveSpellClassNEC","GLOBAL",2)
+End
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassCON","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!SPC1ON"))
+            SetGlobal("Sarad1sGaveSpellClassCON","GLOBAL",2)
+End
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassWIL","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!Spcw1l"))
+            SetGlobal("Sarad1sGaveSpellClassWIL","GLOBAL",2)
+End
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassALT","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!Spc1lt"))
+            SetGlobal("Sarad1sGaveSpellClassALT","GLOBAL",2)
+End
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassGEN","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!spcg1n"))
+            SetGlobal("Sarad1sGaveSpellClassGEN","GLOBAL",2)
+End
+
+IF
+    Global("Sarad1sTalkAfterDavaeorn","GLOBAL",1)
+    Global("Sarad1sGaveSpellClassDRA","GLOBAL",1)
+THEN
+    RESPONSE #100
+            wait(1)
+            ActionOverride(Protagonist,AddSpecialAbility("!spcdr1"))
+            SetGlobal("Sarad1sGaveSpellClassDRA","GLOBAL",2)
+End
+
+
+IF
+  die()
+THEN
+  RESPONSE #100
+  setglobal("SARAD1E","GLOBAL",1)
+  continue()
+END
