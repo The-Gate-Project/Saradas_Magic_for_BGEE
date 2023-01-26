@@ -37,7 +37,23 @@ LANGUAGE
   ~english~
   ~saradas_magic/lang/english/setup.tra~
 
-BEGIN ~saradas_magic for BG1~
+BEGIN ~saradas_magic for BGEE / EET~
+
+// EET compatibility
+
+ACTION_IF GAME_IS ~bgee~
+BEGIN
+	OUTER_SPRINT "area_prefix" AR
+	OUTER_SET isEET = 0
+        INCLUDE ~saradas_magic/Lib/g3_bgee_cpmvars.tpa~
+END
+	
+ACTION_IF GAME_IS ~eet~
+BEGIN
+	OUTER_SPRINT "area_prefix" BG
+	OUTER_SET isEET = 1
+	INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
+END
 
 COPY ~saradas_magic/spl/!Scomb1s.spl~ ~override~
   SAY NAME1 @2                  //nome magia
@@ -210,7 +226,20 @@ COMPILE ~saradas_magic/baf/!sar1d1.baf~
 COMPILE ~saradas_magic/baf/!sar1d2.baf~
 COMPILE ~saradas_magic/baf/!sar1d3.baf~
 COMPILE ~saradas_magic/baf/!SPC1ON.baf~
-EXTEND_BOTTOM ~ar2304.bcs~ ~saradas_magic/baf/AR2304.baf~
+
+/*
+ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+ 
+EXTEND_BOTTOM ~AR6804.bcs~ ~saradas_magic/baf/AR2304.baf~
+
+END ELSE BEGIN
+
+EXTEND_BOTTOM ~%area_prefix%2304.bcs~ ~saradas_magic/baf/AR2304.baf~
+
+END
+*/
+EXTEND_BOTTOM ~%area_prefix%2304.bcs~ ~saradas_magic/baf/AR2304.baf~
+
 COMPILE ~saradas_magic/dlg/!sarad1s.d~ USING ~saradas_magic/lang/%s/!sarad1s.tra~
 
 COMPILE ~saradas_magic/dlg/!SAR1GO.d~ USING ~saradas_magic/lang/%s/!SAR1GO.tra~
