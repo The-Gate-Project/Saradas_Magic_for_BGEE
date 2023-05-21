@@ -100,6 +100,11 @@ All the mod's related files will be erased from the override folder without corr
 ## Version History:
 ----------------
 
+CHANGELOG: V_1.3
+
+* Correct tp2 (missing Autotra)
+
+
 CHANGELOG: V_1.2
 
 * Add...

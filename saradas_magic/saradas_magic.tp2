@@ -26,7 +26,7 @@ ALWAYS
  END
 END
 
-AUTO_TRA ~saradas_magic/lang/%s~
+AUTO_TRA ~saradas_magic/lang/autotra/%s~
 
 LANGUAGE
   ~Italiano~
@@ -240,11 +240,11 @@ END
 */
 EXTEND_BOTTOM ~%area_prefix%2304.bcs~ ~saradas_magic/baf/AR2304.baf~
 
-COMPILE ~saradas_magic/dlg/!sarad1s.d~ USING ~saradas_magic/lang/%s/!sarad1s.tra~
+COMPILE ~saradas_magic/dlg/!sarad1s.d~ USING ~saradas_magic/lang/autotra/%s/!sarad1s.tra~
 
-COMPILE ~saradas_magic/dlg/!SAR1GO.d~ USING ~saradas_magic/lang/%s/!SAR1GO.tra~
+COMPILE ~saradas_magic/dlg/!SAR1GO.d~ USING ~saradas_magic/lang/autotra/%s/!SAR1GO.tra~
 
-COMPILE ~saradas_magic/dlg/!SARA1GR.d~ USING ~saradas_magic/lang/%s/!SARA1GR.tra~
+COMPILE ~saradas_magic/dlg/!SARA1GR.d~ USING ~saradas_magic/lang/autotra/%s/!SARA1GR.tra~
 
 COPY ~saradas_magic/eff/!Sdra1n1.eff~    ~override~
 COPY ~saradas_magic/eff/!sdra1n2.eff~    ~override~
