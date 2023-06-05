@@ -3,6 +3,9 @@ AUTHOR ~SARADAS saradas85@gmail.com~
 README ~saradas_magic/readme/Readme.%LANGUAGE%.txt~ ~saradas_magic/readme/Readme.english.txt~
 
 ALWAYS
+
+INCLUDE ~saradas_magic/Lib/g3_cpmvars_master.tpa~
+
     //Copies tra files into the autotra-folder (to leave the originals untouched)
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
       COPY ~saradas_magic/lang/english~  ~saradas_magic/lang/autotra/%LANGUAGE%~
@@ -38,22 +41,6 @@ LANGUAGE
   ~saradas_magic/lang/english/setup.tra~
 
 BEGIN ~saradas_magic for BGEE / EET~
-
-// EET compatibility
-
-ACTION_IF GAME_IS ~bgee~
-BEGIN
-	OUTER_SPRINT "area_prefix" AR
-	OUTER_SET isEET = 0
-        INCLUDE ~saradas_magic/Lib/g3_bgee_cpmvars.tpa~
-END
-	
-ACTION_IF GAME_IS ~eet~
-BEGIN
-	OUTER_SPRINT "area_prefix" BG
-	OUTER_SET isEET = 1
-	INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
-END
 
 COPY ~saradas_magic/spl/!Scomb1s.spl~ ~override~
   SAY NAME1 @2                  //nome magia
@@ -227,18 +214,8 @@ COMPILE ~saradas_magic/baf/!sar1d2.baf~
 COMPILE ~saradas_magic/baf/!sar1d3.baf~
 COMPILE ~saradas_magic/baf/!SPC1ON.baf~
 
-/*
- ACTION_IF GAME_IS ~bgt~ THEN BEGIN
- 
-EXTEND_BOTTOM ~AR6804.bcs~ ~saradas_magic/baf/AR2304.baf~
-
-END ELSE BEGIN
-
-EXTEND_BOTTOM ~%area_prefix%2304.bcs~ ~saradas_magic/baf/AR2304.baf~
-
-END
-*/
-EXTEND_BOTTOM ~%area_prefix%2304.bcs~ ~saradas_magic/baf/AR2304.baf~
+EXTEND_BOTTOM ~%FriendlyArmInn_TempleofWisdom_BCS%.bcs~ ~saradas_magic/baf/AR2304.baf~
+    EVALUATE_BUFFER
 
 COMPILE ~saradas_magic/dlg/!sarad1s.d~ USING ~saradas_magic/lang/autotra/%s/!sarad1s.tra~
 
