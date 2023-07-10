@@ -289,3 +289,9 @@ COPY ~saradas_magic/eff/!sz1m12.eff~  ~override~
 COPY ~saradas_magic/eff/!sz1m13.eff~  ~override~
 COPY ~saradas_magic/eff/!sz1m14.eff~  ~override~
 COPY ~saradas_magic/eff/!sz1m15.eff~  ~override~
+
+COPY_EXISTING ~ANDRIS.CRE~  ~override~ // Correct Andris.cre GENERAL.IDS from monster to humanoid (Ice island donjon)
+WRITE_LONG 0x271 ~1~
+
+COPY_EXISTING ~BPDINGUE.CRE~  ~override~ // Correct Dinguer le Fou GENERAL.IDS from monster to humanoid (Black Pits)
+WRITE_LONG 0x271 ~1~
