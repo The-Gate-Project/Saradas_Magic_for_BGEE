@@ -1,5 +1,8 @@
 BACKUP ~saradas_magic/backup~
 AUTHOR ~SARADAS saradas85@gmail.com~
+
+VERSION ~1.2~
+
 README ~saradas_magic/readme/Readme.%LANGUAGE%.txt~ ~saradas_magic/readme/Readme.english.txt~
 
 ALWAYS
@@ -41,6 +44,8 @@ LANGUAGE
   ~saradas_magic/lang/english/setup.tra~
 
 BEGIN ~saradas_magic for BGEE / EET~
+DESIGNATED 0
+LABEL ~Saradas-Magic~
 
 //
 
@@ -291,7 +296,13 @@ COPY ~saradas_magic/eff/!sz1m14.eff~  ~override~
 COPY ~saradas_magic/eff/!sz1m15.eff~  ~override~
 
 COPY_EXISTING ~ANDRIS.CRE~  ~override~ // Correct Andris.cre GENERAL.IDS from monster to humanoid (Ice island donjon)
-WRITE_LONG 0x271 ~1~
+WRITE_BYTE 0x271 ~1~
 
-COPY_EXISTING ~BPDINGUE.CRE~  ~override~ // Correct Dinguer le Fou GENERAL.IDS from monster to humanoid (Black Pits)
-WRITE_LONG 0x271 ~1~
+COPY_EXISTING ~BPDINGUE.CRE~  ~override~ // Correct Dinguer the Mad GENERAL.IDS from monster to humanoid (Black Pits)
+WRITE_BYTE 0x271 ~1~
+
+COPY_EXISTING ~FIREBE.CRE~  ~override~ // Correct Firebead Elvenhair CLASS.IDS from FLAMING_FIST to MAGE
+WRITE_BYTE 0x273 ~1~
+
+COPY_EXISTING ~FIREB1.CRE~  ~override~ // Correct Firebead Elvenhair CLASS.IDS from FLAMING_FIST to MAGE
+WRITE_BYTE 0x273 ~1~

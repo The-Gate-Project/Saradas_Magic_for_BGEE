@@ -6,10 +6,10 @@ THEN
 END
 
 IF
-  See(Nearestenemyof(Myself))
+  See(NearestEnemyOf(Myself))
 THEN
   RESPONSE #100
-    AttackOneRound(Nearestenemyof(Myself))
+    AttackOneRound(NearestEnemyOf(Myself))
     Continue()
 END
 
@@ -22,7 +22,7 @@ THEN
 END
 
 IF
-  !See(Nearestenemyof(Myself))
+  !See(NearestEnemyOf(Myself))
   Global("!Sconb1lor","LOCALS",0)
 THEN
   RESPONSE #100
@@ -32,7 +32,7 @@ THEN
 END
 
 IF
-  !See(Nearestenemyof(Myself))
+  !See(NearestEnemyOf(Myself))
   Global("!Sconb1lor","LOCALS",1)
 THEN
   RESPONSE #100

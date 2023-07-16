@@ -100,12 +100,20 @@ All the mod's related files will be erased from the override folder without corr
 ## Version History:
 ----------------
 
-CHANGELOG: V_1.3
+
+CHANGELOG: V_1.2
+
+* Add InfinityAutoPackager
+
+* Add metadata and label for Project Infinity
 
 * Correct tp2 (missing Autotra)
 
+* cpmvars
 
-CHANGELOG: V_1.2
+* Correction for Lashing wind and drain spell
+
+* Drain spell : More creature will display "The target is not affected by this spell"
 
 * Add...
 `IF

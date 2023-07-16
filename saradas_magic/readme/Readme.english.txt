@@ -128,6 +128,52 @@ SARADAS
 
 
 
+
+----------------
+
+
+----------------
+
+
+CHANGELOG: V_1.2
+
+* Add InfinityAutoPackager
+
+* Add metadata and label for Project Infinity
+
+* Correct tp2 (missing Autotra)
+
+* cpmvars
+
+* Correction for Lashing wind and drain spell
+
+* Drain spell : More creature will display "The target is not affected by this spell"
+
+* Add...
+`IF
+  GlobalGT("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END`
+...for EET continuity
+
+* Add Readme.md
+
+* Add g3_bgee_cpmvars.tpa and %area_prefix% for EET compatibility
+
+* Change name of files for compatibility with Saradas Magic for BG2
+
+* Change name of variable for compatibility with Saradas Magic for BG2
+
+* Files association for new name of files
+
+* BWP fix change `COMPILE ~saradas_magic/baf/AR2304.baf~` to `EXTEND_BOTTOM ~ar2304.bcs~ ~saradas_magic/baf/AR2304.baf~`
+
+* Add Italiano from original version
+
+* Add Handle Charset and IconV
+
 CHANGELOG: V_1.1
 
 * Gravitational Field spell rebalanced. Saving throw vs spell has been increased to +2, from -1.

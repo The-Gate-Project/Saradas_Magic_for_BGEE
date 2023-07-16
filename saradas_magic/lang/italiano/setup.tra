@@ -23,9 +23,9 @@ Tiro Salvezza: incantesimi -5 nega
 
 Questo incantesimo e' molto famoso tra gli stregoni. Visto il suo grande potere, in passato e' stato usato moltissime volte in regolamenti di conti tra maghi, con l'intento di ridicolizzare l'avversario. E' decisamente uno tra gli incantesimi piu' devastanti da usare contro un mago. Saradas era uno tra i maestri piu' potenti e noti di Faerun. Spesso si divertiva ad utilizzare questo incantesimo, da lui inventato, sugli ignari studenti, per rendere piu' difficili gli esami. EFFETTO: Il lanciatore fa dimenticare due incantesimi all'avversario che non riesce in un tiro salvezza su incantesimi (-5), ripristinandone uno dei propri. Ha effetto su magie dal livello 1 al livello 9, ma cerchera'  sempre di far dimenticare quelle di piu' alto livello a disposizione del bersaglio. NOTA: Questo incantesimo colpisce solamente incantatori e maghi (puri, biclasse e multiclasse). Se il bersaglio colpito fosse di una classe diversa da quelle indicate, non accadrebbe nulla e l'incantesimo andrebbe sprecato.~
 
-@7=~Incantesimo rimemorizzato~
-@8=~Vento sferzante~
-@9=~Vento sferzante (Evocazione)
+@7 = ~Incantesimo rimemorizzato~
+@8 = ~Vento sferzante~
+@9 = ~Vento sferzante (Evocazione)
 
 Livello: 6
 Tempo di lancio: 6
@@ -35,8 +35,8 @@ Tiro salvezza: soffio (-2) riduce gli effetti
 
 Con un solo gesto della mano il mago evoca una potentissima folata di vento capace di sbaragliare un intero gruppo di nemici. Essi vengono scagliati fino a 20 metri di distanza dall'incantatore e se non superano un tiro salvezza subiranno 1d10 di danni contundenti, perderanno la presa sulle loro armi, inoltre rimarranno temporaneamente storditi a causa del forte impatto col suolo o con altri ostacoli vicini.~
 
-@10=~Campo gravitazionale~
-@11=~Campo gravitazionale (Alterazione)
+@10 = ~Campo gravitazionale~
+@11 = ~Campo gravitazionale (Alterazione)
 
 Livello: 5
 Tempo di cast: 5
@@ -48,8 +48,8 @@ Tiro salvezza: Su Incantesimi (+2) nega
 
 Questo incantesimo aumenta la forza di gravita'  in una piccola area decisa dall'incantatore. Tutte le creature nell'area d'effetto sono sopraffatte da un repentino aumento della gravita'  e, se non superano un tiro salvezza, lasciano cadere le proprie armi a terra, a causa del loro peso divenuto insostenibile. In aggiunta, vengono anche rallentate e la loro destrezza si dimezza. Gli effetti possono essere dissolti.~
 
-@12=~Esplosione spirituale~
-@13=~Esplosione spirituale (Invocazione)
+@12 = ~Esplosione spirituale~
+@13 = ~Esplosione spirituale (Invocazione)
 
 Livello: Epico
 Raggio d'azione: 75m
@@ -63,8 +63,8 @@ Se il bersaglio riesce in un tiro salvezza su incantesimi con penalita' -7, evit
 Lo stregone, a causa dello sforzo, perdera'  3d10 punti ferita e sara' affaticato per l'ora successiva al lancio dell'incantesimo.
 Da notare che il proiettile e' in grado di oltrepassare l'effetto di barriere protettive.~
 
-@14=~Teletrasporto senza errore~
-@15=~Teletrasporto senza errore (Illusione)
+@14 = ~Teletrasporto senza errore~
+@15 = ~Teletrasporto senza errore (Illusione)
 
 Livello: 3
 Raggio: 30m
@@ -74,8 +74,8 @@ Area d'effetto: incantatore
 
 Questo prodigioso incantesimo permette all'incantatore di teletrasportarsi senza errore entro 30 metri nel proprio raggio visivo, inoltre, non appena egli arrivera'  nella destinazione prescelta, sara'  celato agli occhi dell'avversario come se avesse lanciato un incantesimo di invisibilita', ottenendo un vantaggio tattico non indifferente. Il mago rimarra' in questo stato per 2 round, a meno che non effettui un'azione offensiva durante questo periodo.~
 
-@16=~Supremazia di Tenser~
-@17=~Supremazia di Tenser (Alterazione)
+@16 = ~Supremazia di Tenser~
+@17 = ~Supremazia di Tenser (Alterazione)
 
 Livello: 9
 Durata: 1 minuto
@@ -90,9 +90,9 @@ TACH0 impostato a -3
 Forza sale a 25
 PF e velocita' di movimento raddoppiati.~
 
-@18=~Spada incantata di Tenser~
-@19=~Orrida trasformazione~
-@20=~Orrida Trasformazione (Necromanzia)
+@18 = ~Spada incantata di Tenser~
+@19 = ~Orrida trasformazione~
+@20 = ~Orrida Trasformazione (Necromanzia)
 
 Livello: 7
 Raggio d'azione: 5m
@@ -108,11 +108,11 @@ Gli effetti sono permanenti a meno che non venga lanciato un incantesimo di rimu
 NOTA:
 ha effetto solamente su creature umanoidi, pertanto animali, non-morti o umanoidi giganti non vengono colpiti da questo incantesimo.~
 
-@21=~Incantesimi risucchiati~
-@22=~Il bersaglio non e' soggetto agli effetti dell'incantesimo~
-@23=~Saradas~
-@24=~Difesa impenetrabile~
-@25=~Difesa impenetrabile (Abiurazione)
+@21 = ~Incantesimi risucchiati~
+@22 = ~Il bersaglio non e' soggetto agli effetti dell'incantesimo~
+@23 = ~Saradas~
+@24 = ~Difesa impenetrabile~
+@25 = ~Difesa impenetrabile (Abiurazione)
 
 Livello: Epico
 Raggio d'azione: Alleati entro 10m
@@ -125,8 +125,8 @@ Da notare che chi e' protetto da Difesa Impenetrabile e' anche immune agli effet
 L'incantatore puo' usare questo incantesimo solo una volta al giorno e la sua grande efficacia ne rende la durata relativamente breve, inoltre per tutta la durata della barriera, l'incantatore non potra'  lanciare altri incantesimi poiche' dovra'  mantenere la concentrazione.
 Non puo' essere dissolta con Dissolvi Magie.~
 
-@26=~Fragilita'  dell'io~
-@27=~Fragilita'  dell'io (Alterazione)
+@26 = ~Fragilita'  dell'io~
+@27 = ~Fragilita'  dell'io (Alterazione)
 
 Livello: Epico
 Raggio d'azione: 20m
@@ -140,8 +140,8 @@ Tutte le resistenze elementali, quella da danno magico e quelle fisiche saranno 
 La resistenza magica sara'  abbassata di 75 punti e gli effetti dell'incantesimo Lentezza si abbatteranno sulla creatura colpita dall'incantesimo.
 Un tiro salvezza su incantesimi (con penalita'  -2) effettuato con successo nega completamente gli effetti.~
 
-@28=~Evoca Diavolo di Baator~
-@29=~Evoca Diavolo di Baator (Evocazione)
+@28 = ~Evoca Diavolo di Baator~
+@29 = ~Evoca Diavolo di Baator (Evocazione)
 
 Livello: Epico
 Raggio d'azione: 15m
@@ -152,9 +152,9 @@ Egli non obbedira'  ciecamente all'evocatore, ma lo proteggera'  ogni qualvolta 
 Il suo attacco e' micidiale, arreca 2d10+5 di danno da taglio ed e' considerato come un'arma +5, inoltre arreca 1d6 aggiuntivo da danno da fuoco e i suoi artigli hanno una probabilita'  del 10% di dilaniare il bersaglio, uccidendolo istaneamente, se non supera un tiro salvezza su morte.
 Il demone, in cambio dei suoi servigi, richiede meta'  dei punti ferita attuali dell'incantore.~
 
-@30=~Principe demoniaco~
-@31=~Prevedere il futuro~
-@32=~Prevedere il futuro (Divinazione)
+@30 = ~Principe demoniaco~
+@31 = ~Prevedere il futuro~
+@32 = ~Prevedere il futuro (Divinazione)
 
 Livello: Epico
 Raggio: incantatore
@@ -165,8 +165,8 @@ La classe armatura del mago sara'  incrementata di 5 punti universali e i suoi t
 Il potere di questo incantesimo non si ferma qui, infatti le straordinarie doti divinatorie dell'incantatore gli consentono di vedere interamente l'area in cui si trova al momento del lancio dell'incantesimo, nonche' di svelare la presenza di utili oggetti magici celati alla vista delle persone normali e di vedere la realta'  circostante con chiarezza assoluta (Vera Vista).
 La protezione dura un'ora e non puo' essere dissolta con un incantesimo di dissolvi magie.~
 
-@33=~Folle abnegazione~
-@34=~Folle abnegazione (Incantamento)
+@33 = ~Folle abnegazione~
+@34 = ~Folle abnegazione (Incantamento)
 
 Livello: Epico
 Raggio: 30m
@@ -188,8 +188,8 @@ Attacchi per round: +1
 Doppia velocita' di movimento
 Immunita' a charme e confusione~
 
-@35=~Schiera d'ombre~
-@36=~Schiera d'ombre (Illusione)
+@35 = ~Schiera d'ombre~
+@36 = ~Schiera d'ombre (Illusione)
 
 Livello: Epico
 Raggio: party
@@ -200,8 +200,8 @@ Nello stesso istante in cui questi doppioni vengono creati, i membri del party s
 Da notare che queste ombre non sono in grado di ferire gli avversari, ma sono totalmente sotto l'effetto dell'incantatore, che nel frattempo potra'  eseguire qualunque altro incantesimo egli voglia.
 Da notare che tutti i membri del gruppo non potranno usare altre illusioni come Simulacro, Ingannare e Proietta immagine.~
 
-@37=~Doni della morte~
-@38=~Doni della morte (Necromanzia)
+@37 = ~Doni della morte~
+@38 = ~Doni della morte (Necromanzia)
 
 Livello: Epico
 Raggio: incantatore
@@ -217,11 +217,11 @@ Il tocco Lich e' da considerarsi come un'arma incantata +5 e ogni contatto col n
 
 Non puo' essere dissolto, inoltre il necromante non potra'  utilizzare altri incantesimi di trasformazione~
 
-@39=~Mano del Lich~
-@40=~Resistenza magica, elementale e fisica abbassata~
-@41=~Oggetto creato nell'inventario~
-@42=~Conoscenza dell'erudito~
-@43=~Conoscenza dell'erudito (Generalista)
+@39 = ~Mano del Lich~
+@40 = ~Resistenza magica, elementale e fisica abbassata~
+@41 = ~Oggetto creato nell'inventario~
+@42 = ~Conoscenza dell'erudito~
+@43 = ~Conoscenza dell'erudito (Generalista)
 
 Livello: Epico
 Raggio: Incantatore
@@ -229,8 +229,8 @@ Durata: 30 minuti
 
 Il mago che ha deciso di non specializzarsi in nessuna corrente magica specifica ha compreso a fondo le energie che pervadono Faerun ed e' in grado di incanalarle e plasmarle con maggiore efficacia. Per la durata dell' incantesimo, il mago e' in grado di abbassare il tempo di cast dei propri incantesimi di 1 e di raddoppiarne la durata, inoltre espande la propria aura magica. I nemici che ne vengono a contatto subiranno una penalita' inevitabile di 3 punti a tutti i loro tiri salvezza. Le resistenze ai danni elementali e magici saranno dimezzate e quella magica verra' abbassata di 25 punti. Gli effetti dell'aura durano 30 secondi e non sono cumulabili. Eventuali oggetti magici equipaggiati dai nemici possono comunque aumentare suddette resistenze, cosi' come incantesimi protettivi.~
 
-@44=~Esplosione di magia selvaggia~
-@45=~Esplosione di magia selvaggia (Magia selvaggia)
+@44 = ~Esplosione di magia selvaggia~
+@45 = ~Esplosione di magia selvaggia (Magia selvaggia)
 
 Livello: Epico
 Raggio: 20m
@@ -242,11 +242,11 @@ Il mago che si e' specializzato nella scuola di Magia selvaggia e ha raggiunto l
 Se l'incantatore nemico non supera un tiro salvezza con penalita'  -3 su soffio, sara'  avvolto in questa energia per 1 turno. Ogni incantesimo che egli cerchera'  di plasmare dara'  invece come risultato una esplosione di magia selvaggia incontrollabile, con effetti principalmente nefasti per se' stesso e il suo eventuale gruppo, poiche' il mago selvaggio e' in grado di modificare negativamente i suoi tiri sulla tabella degli effetti di magia selvaggia.
 Questa energia che avvolge il nemico non puo' essere dissolta. E' inoltre da tenere in considerazione il fatto che neppur un gran maestro potra'  mai piegare completamente questo tipo di energia al proprio volere, pertanto effetti favorevoli per il nemico non sono da escludere completamente.~
 
-@46=~Avvolto da energia magica selvaggia~
-@47=~Aura magica~
-@48=~Sangue di Drago~
-@49=~Attacco del Drago rosso~
-@50=~Sangue di Drago (Discepolo del Drago)
+@46 = ~Avvolto da energia magica selvaggia~
+@47 = ~Aura magica~
+@48 = ~Sangue di Drago~
+@49 = ~Attacco del Drago rosso~
+@50 = ~Sangue di Drago (Discepolo del Drago)
 
 Livello: Epico
 Bersaglio: incantatore

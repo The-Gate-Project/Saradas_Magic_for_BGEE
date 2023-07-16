@@ -1,70 +1,70 @@
-@100=~Salute a voi, avventurieri. Il mio nome e' Saradas, viaggiatore e insegnante di arti arcane. Per tutta la mia vita ho vagato per Faerun in cerca di conoscenza e artefatti perduti. Come potete ben vedere, la mia eta' mi proibisce di continuare tale piacevole attivita'. Ora mi limito a dare consiglio ai giovani avventurieri bisognosi e a vendere alcuni incantesimi che ho creato io stesso. Date pure un'occhiata alle mie merci, se siete interessati.~
+@100 = ~Salute a voi, avventurieri. Il mio nome e' Saradas, viaggiatore e insegnante di arti arcane. Per tutta la mia vita ho vagato per Faerun in cerca di conoscenza e artefatti perduti. Come potete ben vedere, la mia eta' mi proibisce di continuare tale piacevole attivita'. Ora mi limito a dare consiglio ai giovani avventurieri bisognosi e a vendere alcuni incantesimi che ho creato io stesso. Date pure un'occhiata alle mie merci, se siete interessati.~
 
-@101=~Vediamo un po' cosa hai da offrire, mago.~
+@101 = ~Vediamo un po' cosa hai da offrire, mago.~
 
-@102=~Al momento andiamo un po' di fretta, sara' per la prossima volta.~
+@102 = ~Al momento andiamo un po' di fretta, sara' per la prossima volta.~
 
-@103=~Sinceramente non mi interessa chi sei o cosa vendi, vecchio, inoltre nutro parecchi dubbi riguardo ai tuoi fantomatici "poteri".~
+@103 = ~Sinceramente non mi interessa chi sei o cosa vendi, vecchio, inoltre nutro parecchi dubbi riguardo ai tuoi fantomatici "poteri".~
 
-@104=~Sai, non amo dare dimostrazione dei miei poteri, specialmente in pubblico... ma se e' questo che vuoi ti accontentero', potresti addirittura trarne insegnamento.~
+@104 = ~Sai, non amo dare dimostrazione dei miei poteri, specialmente in pubblico... ma se e' questo che vuoi ti accontentero', potresti addirittura trarne insegnamento.~
 
-@105=~D'accordo nonnetto, fatti sotto! Ti faro' passare la voglia di parlare tanto.~
+@105 = ~D'accordo nonnetto, fatti sotto! Ti faro' passare la voglia di parlare tanto.~
 
-@106=~Mmm...forse sara' per la prossima volta! Ora sono...davvero moooolto impegnato...Non che non fossi in grado di batterti, si capisce...~
+@106 = ~Mmm...forse sara' per la prossima volta! Ora sono...davvero moooolto impegnato...Non che non fossi in grado di batterti, si capisce...~
 
-@107=~Saggia decisione, <GIRLBOY>. Ora va e cerca di imparare le buone maniere, se ti riesce.~
+@107 = ~Saggia decisione, <GIRLBOY>. Ora va e cerca di imparare le buone maniere, se ti riesce.~
 
-@108=~Oh, siete tornati. Siete alla ricerca di qualche pergamena o artefatto? O forse di un amico...Non se ne ha mai abbastanza di questi tempi.~
+@108 = ~Oh, siete tornati. Siete alla ricerca di qualche pergamena o artefatto? O forse di un amico...Non se ne ha mai abbastanza di questi tempi.~
 
-@109=~Bentrovato, Saradas. Mostraci cio' che hai da vendere.~
+@109 = ~Bentrovato, Saradas. Mostraci cio' che hai da vendere.~
 
-@110=~A dire il vero siamo solo di passaggio, e' tempo di rimettersi in viaggio.~
+@110 = ~A dire il vero siamo solo di passaggio, e' tempo di rimettersi in viaggio.~
 
-@111=~Ne' dell'uno ne' dell'altro. Trovati qualcun altro da importunare, vecchiaccio appiccicoso. Umph!~
+@111 = ~Ne' dell'uno ne' dell'altro. Trovati qualcun altro da importunare, vecchiaccio appiccicoso. Umph!~
 
 
-@115=~Bentornati! <CHARNAME>, ho saputo della vostra eroica impresa alle miniere del Bosco Ammantato, davvero ben fatto!~
+@115 = ~Bentornati! <CHARNAME>, ho saputo della vostra eroica impresa alle miniere del Bosco Ammantato, davvero ben fatto!~
 
-@116=~Oh, vedo che le notizie camminano piu' velocemente di me...Non e' stato affatto facile, ma io e il mio gruppo siamo piuttosto felici di esserne usciti vivi.~
+@116 = ~Oh, vedo che le notizie camminano piu' velocemente di me...Non e' stato affatto facile, ma io e il mio gruppo siamo piuttosto felici di esserne usciti vivi.~
 
-@117=~Non sono affari tuoi, vecchio. Lasciami in pace una volta per tutte.~
+@117 = ~Non sono affari tuoi, vecchio. Lasciami in pace una volta per tutte.~
 
-@118=~Suvvia, lo sai che non c'e' ragione di essere modesti con me. Di persone come te non ce n'e' mai abbastanza nei Reami.~
+@118 = ~Suvvia, lo sai che non c'e' ragione di essere modesti con me. Di persone come te non ce n'e' mai abbastanza nei Reami.~
 
-@119=~Grazie Saradas, ma c'e' ancora molto da fare...Arrivederci.~
+@119 = ~Grazie Saradas, ma c'e' ancora molto da fare...Arrivederci.~
 
-@120=~Va bene va bene, me ne vado, non c'e' bisogno di essere scortesi. Ricorda pero' che nella vita e' importante avere degli amici fidati. Addio <CHARNAME>.~
+@120 = ~Va bene va bene, me ne vado, non c'e' bisogno di essere scortesi. Ricorda pero' che nella vita e' importante avere degli amici fidati. Addio <CHARNAME>.~
 
-@121=~Ti ringrazio, ma sono davvero stanco, i pericoli sembrano non finire mai. Se solo Gorion fosse ancora qui per insegnarmi...~
+@121 = ~Ti ringrazio, ma sono davvero stanco, i pericoli sembrano non finire mai. Se solo Gorion fosse ancora qui per insegnarmi...~
 
-@122=~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Evocazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@122 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Evocazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@123=~Non pensavo esistesse un incantesimo cosi' complicato, senza di te non lo avrei mai compreso. Ora la mia missione sembra meno impossibile, grazie Saradas!~
+@123 = ~Non pensavo esistesse un incantesimo cosi' complicato, senza di te non lo avrei mai compreso. Ora la mia missione sembra meno impossibile, grazie Saradas!~
 
-@124=~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la Magia Selvaggia. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@124 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la Magia Selvaggia. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@125=~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Abiurazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@125 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Abiurazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@126=~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola della Divinazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@126 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola della Divinazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@127=~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Incantamento. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@127 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Incantamento. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@128=~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Illusione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@128 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Illusione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@129=~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Invocazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@129 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Invocazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@130=~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola della Necromanzia. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@130 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola della Necromanzia. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@131=~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Alterazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@131 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che studi la scuola dell'Alterazione. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@132=~Bhe, magari potrei insegnarti qualcosa...Vedo che sei un Generalista, studi la magia in ogni sua forma. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@132 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che sei un Generalista, studi la magia in ogni sua forma. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@133=~Bhe, magari potrei insegnarti qualcosa...Vedo che sei un Discepolo del Drago. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
+@133 = ~Bhe, magari potrei insegnarti qualcosa...Vedo che sei un Discepolo del Drago. Questo incantesimo ti tornera' sicuramente utile durante i tuoi viaggi, ma usalo con saggezza, poiche' i suoi poteri sono davvero impressionanti.~
 
-@134=~Alcuni di noi sono feriti gravemente, potresti aiutarci?~
+@134 = ~Alcuni di noi sono feriti gravemente, potresti aiutarci?~
 
-@135=~Non sono esattamente uno specialista in questo campo, ma conosco qualche incantesimo basilare di cura. Dunque, fatemi vedere...~
+@135 = ~Non sono esattamente uno specialista in questo campo, ma conosco qualche incantesimo basilare di cura. Dunque, fatemi vedere...~
 
-@136=~La vostra cattiva reputazione e' ben nota, non aiutero' dei criminali. Andate via.~
+@136 = ~La vostra cattiva reputazione e' ben nota, non aiutero' dei criminali. Andate via.~
 
-@137=~Ho gia' usato tutti gli incantesimi di cura che conosco, tornate piu' tardi e vi aiutero'.~
+@137 = ~Ho gia' usato tutti gli incantesimi di cura che conosco, tornate piu' tardi e vi aiutero'.~

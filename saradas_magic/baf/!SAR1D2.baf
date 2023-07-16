@@ -210,8 +210,8 @@ IF
 	GlobalTimerExpired("!S1imer2","LOCALS")
 THEN
 	RESPONSE #100
-		ForceSpellRES("!stelep1",nearestenemyof(myself))
-		wait(1)
+		ForceSpellRES("!stelep1",NearestEnemyOf(Myself))
+		Wait(1)
                 Spell(Myself,WIZARD_WAIL_OF_THE_BANSHEE)
 		Wait(4)
 		Continue()
