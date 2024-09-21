@@ -18,16 +18,16 @@ INCLUDE ~saradas_magic/Lib/g3_cpmvars_master.tpa~
     LAF autotra_workaround END
 
 
-//  ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
+	ACTION_DEFINE_ARRAY fl#noconvert BEGIN install END
 
- ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
+	ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
 
     LAF HANDLE_CHARSETS
       INT_VAR
         infer_charsets = 1
       STR_VAR
         tra_path = EVAL ~saradas_magic/lang/autotra~
-//        noconvert_array = fl#noconvert
+        noconvert_array = fl#noconvert
         reload_array = fl#reload
  END
 END
@@ -42,6 +42,10 @@ LANGUAGE
   ~English~
   ~english~
   ~saradas_magic/lang/english/setup.tra~
+ LANGUAGE
+  ~Simplified Chinese~
+  ~schinese~
+  ~saradas_magic/lang/schinese/install.tra~  
 
 BEGIN ~saradas_magic for BGEE / EET~
 DESIGNATED 0
