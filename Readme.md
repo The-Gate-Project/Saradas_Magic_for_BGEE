@@ -1,6 +1,6 @@
 # Saradas Magic for BGEE / EET
 
-![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20Italian%20%7C%20&color=informational)
+![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20Italian%20%7C%20Simplified%20Chinese%20&color=informational)
 
 **Autor** : **Saradas**
 
