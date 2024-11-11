@@ -1,7 +1,7 @@
 BACKUP ~saradas_magic/backup~
 AUTHOR ~SARADAS saradas85@gmail.com~
 
-VERSION ~1.2~
+VERSION ~1.3~
 
 README ~saradas_magic/readme/Readme.%LANGUAGE%.txt~ ~saradas_magic/readme/Readme.english.txt~
 
@@ -18,16 +18,16 @@ INCLUDE ~saradas_magic/Lib/g3_cpmvars_master.tpa~
     LAF autotra_workaround END
 
 
-	ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
+//  ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
 
-	ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
+ ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
 
     LAF HANDLE_CHARSETS
       INT_VAR
         infer_charsets = 1
       STR_VAR
         tra_path = EVAL ~saradas_magic/lang/autotra~
-        noconvert_array = fl#noconvert
+//        noconvert_array = fl#noconvert
         reload_array = fl#reload
  END
 END
@@ -47,15 +47,36 @@ LANGUAGE
   ~schinese~
   ~saradas_magic/lang/schinese/setup.tra~  
 
-BEGIN ~saradas_magic for BGEE / EET~
+BEGIN ~saradas_magic for BGEE / EET / BGT~
 DESIGNATED 0
 LABEL ~Saradas-Magic~
+REQUIRE_PREDICATE GAME_IS ~bgee eet bgt~ ~For BGEE, EET or BGT~
+
+
+ACTION_IF GAME_IS ~bgt~ BEGIN // Missing bam
+	COPY ~saradas_magic/bam~ ~override~
+END
+
+/*
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~SPCL237A.BAM~ BEGIN
+	COPY ~saradas_magic/bam/SPCL237A.BAM~ ~override/SPCL237A.BAM~
+	COPY ~saradas_magic/bam/SPCL237A.BAM~ ~override/SPCL237B.BAM~
+	COPY ~saradas_magic/bam/SPCL237A.BAM~ ~override/SPCL237C.BAM~
+END
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~SPDD03A.BAM~ BEGIN
+	COPY ~saradas_magic/bam/SPDD03A.BAM~ ~override/SPDD03A.BAM~
+	COPY ~saradas_magic/bam/SPDD03A.BAM~ ~override/SPDD03B.BAM~
+	COPY ~saradas_magic/bam/SPDD03A.BAM~ ~override/SPDD03C.BAM~
+END
+*/
 
 //
 
 COPY ~saradas_magic/spl/!Scomb1s.spl~ ~override~
   SAY NAME1 @2                  //nome magia
   SAY UNIDENTIFIED_DESC @4      //descrizione magia
+	WRITE_ASCII 0x3a ~SPPR705C~ (8)
 
 COPY ~saradas_magic/itm/!Scomb1s.itm~ ~override~
   SAY NAME1 @1                  //nome non identificato
@@ -85,10 +106,32 @@ COPY ~saradas_magic/itm/!Sfor1e.itm~ ~override~
   SAY NAME2 @8                  //nome identificato
   SAY UNIDENTIFIED_DESC @3      //desc. non ident.
   SAY DESC @9                   //desc. ident.
+/*
+ACTION_IF GAME_IS ~bgt~ BEGIN
+	WRITE_ASCII 0x3a ~XXXXXXX~ (8)
+	LPF ALTER_ITEM_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~XXXXXXX~
+	END
+END
+*/
 
 COPY ~saradas_magic/spl/!Sfor1e.spl~ ~override~
   SAY NAME1 @8                  //nome magia
   SAY UNIDENTIFIED_DESC @9      //descrizione magia
+/*
+ACTION_IF GAME_IS ~bgt~ BEGIN
+	WRITE_ASCII 0x3a ~XXXXXXX~ (8)
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~XXXXXXX~
+	END
+END
+*/
 
 //
 
@@ -239,6 +282,17 @@ COPY ~saradas_magic/spl/!Spcw1l.spl~ ~override~
   SAY NAME1 @44
   SAY UNIDENTIFIED_DESC @45      //descrizione magia
   SAY 0x21e @46
+/*
+ACTION_IF GAME_IS ~bgt~ BEGIN
+	WRITE_ASCII 0x3a ~XXXXXXX~ (8)
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~XXXXXXX~
+	END
+END
+*/
 
 //
 
@@ -302,9 +356,11 @@ COPY ~saradas_magic/eff/!sz1m15.eff~  ~override~
 COPY_EXISTING ~ANDRIS.CRE~  ~override~ // Correct Andris.cre GENERAL.IDS from monster to humanoid (Ice island donjon)
 WRITE_BYTE 0x271 ~1~
 
+	ACTION_IF GAME_IS ~bgee eet~ BEGIN
 COPY_EXISTING ~BPDINGUE.CRE~  ~override~ // Correct Dinguer the Mad GENERAL.IDS from monster to humanoid (Black Pits)
 WRITE_BYTE 0x271 ~1~
-
+	END
+	
 COPY_EXISTING ~FIREBE.CRE~  ~override~ // Correct Firebead Elvenhair CLASS.IDS from FLAMING_FIST to MAGE
 WRITE_BYTE 0x273 ~1~
 
